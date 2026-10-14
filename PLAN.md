@@ -41,16 +41,17 @@ dps-practice/
 │   │   ├── backend/       # FastAPI or Flask, with tests/
 │   │   └── frontend/      # React + Vite (JS or TS)
 │   └── ...
-└── solutions/
-    └── 01-click-counter.md   # reference solution + explanation (open only AFTER trying)
 ```
+
+Reference solutions are **not** on `main`. They are kept on the separate `solutions` branch,
+and the mentor shares them after a project is finished.
 
 **Workflow per project:**
 1. `git checkout -b practice/01` keeps `main` clean, so you can redo the project later.
 2. **5 min exploring without AI**: run the app, read the README, trace one request UI → API → DB.
 3. Start a timer, **talk out loud**, do the tasks one by one. Look up syntax only (CHEATSHEET / docs).
 4. Check each task: in the browser, in `/docs` (FastAPI) and with `pytest`.
-5. Compare with `solutions/NN-*.md`. Write down 1 thing you'll do differently.
+5. Ask your mentor for the review / reference solution. Write down 1 thing you'll do differently.
 6. Tick the project off in `README.md`.
 
 ---
@@ -171,10 +172,10 @@ Practising each concept more than once: **add a field end-to-end** in L6, 05, 06
 | Batch | Content | Status |
 |---|---|---|
 | 0 | SETUP, CHEATSHEET, basics L1–L6 | ✅ done |
-| 1 | INTERVIEW_PLAYBOOK + P01–P05 + solutions | ✅ done |
-| 2 | P06–P11 + solutions | needed by Tue 20 Oct |
-| 3 | P12–P18 + solutions | needed by Fri 23 Oct |
-| 4 | P19 (+ solution), P20 codebase (task stays secret) | needed by Tue 27 Oct |
+| 1 | INTERVIEW_PLAYBOOK + P01–P05 (solutions on `solutions` branch) | ✅ done |
+| 2 | P06–P11 (solutions on `solutions` branch) | needed by Tue 20 Oct |
+| 3 | P12–P18 (solutions on `solutions` branch) | needed by Fri 23 Oct |
+| 4 | P19 (solution on `solutions` branch), P20 codebase (task stays secret) | needed by Tue 27 Oct |
 
 Every project is checked before it's pushed: `pip install` + `pytest` pass, `npm install` + `npm run build` succeed,
 and the starter app runs in a browser. The tasks are **not** implemented in the starter code; they're for you.
