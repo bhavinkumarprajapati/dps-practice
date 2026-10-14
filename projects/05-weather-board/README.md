@@ -103,4 +103,4 @@ npm run typecheck     # run this after every change!
   Load it in the click handler, not in `useEffect`.
 </details>
 
-Solution: [`solutions/05-weather-board.md`](../../solutions/05-weather-board.md)
+**Reference solution:** not in this branch. When you have finished all tasks, ask your mentor for the review / solution.

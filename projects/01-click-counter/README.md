@@ -101,4 +101,4 @@ Start a timer for each task. Talk out loud. Commit after each one.
 - Bonus: `step: int = Query(1, ge=1, le=10)` (`from fastapi import Query`).
 </details>
 
-Solution: [`solutions/01-click-counter.md`](../../solutions/01-click-counter.md). Open it only after you've tried!
+**Reference solution:** not in this branch. When you have finished all tasks, ask your mentor for the review / solution.

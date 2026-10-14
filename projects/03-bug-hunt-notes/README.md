@@ -99,4 +99,4 @@ an empty title shows an error, and `pytest` shows **5 passed**.
 6. `assert 200 == 201`: which parameter of `@app.post(...)` sets the success status code?
 </details>
 
-Solution: [`solutions/03-bug-hunt-notes.md`](../../solutions/03-bug-hunt-notes.md)
+**Reference solution:** not in this branch. When you have finished all tasks, ask your mentor for the review / solution.
