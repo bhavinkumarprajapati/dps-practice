@@ -9,6 +9,7 @@ Interview prep for the **Digital Product School, Software Engineer track**
 | 🛠 [SETUP.md](SETUP.md) | Windows setup (do this first) |
 | 📚 [basics/](basics/) | basics course: React + FastAPI + Flask from zero |
 | 📝 [CHEATSHEET.md](CHEATSHEET.md) | syntax to look up (allowed in the interview) |
+| 🎯 [INTERVIEW_PLAYBOOK.md](INTERVIEW_PLAYBOOK.md) | routine for the live session (read on Day 5) |
 
 ## Progress tracker
 
@@ -31,11 +32,11 @@ FA = FastAPI · FL = Flask
 
 | # | Project | Stack | Level | Status | Notes |
 |---|---|---|---|---|---|
-| 01 | Click Counter | FA + JS | 🟢 | ⬜ | |
-| 02 | Todo List | FL + JS | 🟢 | ⬜ | |
-| 03 | Bug Hunt: Notes App | FA + JS | 🟢 | ⬜ | |
-| 04 | Book Library | FL + JS | 🟢 | ⬜ | |
-| 05 | Weather Board | FA + TS | 🟢 | ⬜ | |
+| 01 | [Click Counter](projects/01-click-counter/) | FA + JS | 🟢 | ⬜ | |
+| 02 | [Todo List](projects/02-todo-list/) | FL + JS | 🟢 | ⬜ | |
+| 03 | [Bug Hunt: Notes App](projects/03-bug-hunt-notes/) | FA + JS | 🟢 | ⬜ | |
+| 04 | [Book Library](projects/04-book-library/) | FL + JS | 🟢 | ⬜ | |
+| 05 | [Weather Board](projects/05-weather-board/) | FA + TS | 🟢 | ⬜ | |
 | 06 | Recipe Box | FL + JS | 🟡 | ⬜ | |
 | 07 | Expense Tracker (SQLite) | FA + JS | 🟡 | ⬜ | |
 | 08 | Movie Watchlist | FL + TS | 🟡 | ⬜ | |

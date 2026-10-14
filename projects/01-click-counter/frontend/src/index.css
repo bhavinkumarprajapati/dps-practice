@@ -1,0 +1,12 @@
+* { box-sizing: border-box; }
+body { font-family: system-ui, sans-serif; margin: 0; background: #f5f6f8; color: #1d1f23;
+  display: flex; justify-content: center; padding-top: 60px; }
+.card { background: white; border-radius: 12px; padding: 24px 40px; min-width: 340px; text-align: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,.08); }
+.value { font-size: 72px; font-weight: 700; margin: 16px 0; }
+.buttons { display: flex; gap: 8px; justify-content: center; }
+button { cursor: pointer; padding: 10px 18px; border-radius: 8px; border: 1px solid #ced4da; background: white; font-size: 16px; }
+button.primary { background: #3b5bdb; color: white; border-color: #3b5bdb; }
+button:disabled { opacity: .4; cursor: not-allowed; }
+.error { background: #fff5f5; color: #c92a2a; padding: 8px 12px; border-radius: 6px; }
+.muted { color: #868e96; font-size: 14px; }

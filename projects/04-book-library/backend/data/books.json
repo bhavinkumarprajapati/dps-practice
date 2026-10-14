@@ -1,0 +1,17 @@
+[
+  {"id": 1, "title": "The Hobbit", "author": "J.R.R. Tolkien", "year": 1937, "genre": "Fantasy", "pages": 310},
+  {"id": 2, "title": "Clean Code", "author": "Robert C. Martin", "year": 2008, "genre": "Programming", "pages": 464},
+  {"id": 3, "title": "The Pragmatic Programmer", "author": "Andrew Hunt", "year": 1999, "genre": "Programming", "pages": 352},
+  {"id": 4, "title": "Dune", "author": "Frank Herbert", "year": 1965, "genre": "Science Fiction", "pages": 412},
+  {"id": 5, "title": "Sprint", "author": "Jake Knapp", "year": 2016, "genre": "Product", "pages": 288},
+  {"id": 6, "title": "The Lean Startup", "author": "Eric Ries", "year": 2011, "genre": "Product", "pages": 336},
+  {"id": 7, "title": "Inspired", "author": "Marty Cagan", "year": 2008, "genre": "Product", "pages": 368},
+  {"id": 8, "title": "Refactoring", "author": "Martin Fowler", "year": 1999, "genre": "Programming", "pages": 448},
+  {"id": 9, "title": "The Silmarillion", "author": "J.R.R. Tolkien", "year": 1977, "genre": "Fantasy", "pages": 365},
+  {"id": 10, "title": "Neuromancer", "author": "William Gibson", "year": 1984, "genre": "Science Fiction", "pages": 271},
+  {"id": 11, "title": "Don't Make Me Think", "author": "Steve Krug", "year": 2000, "genre": "Design", "pages": 216},
+  {"id": 12, "title": "The Design of Everyday Things", "author": "Don Norman", "year": 1988, "genre": "Design", "pages": 368},
+  {"id": 13, "title": "Foundation", "author": "Isaac Asimov", "year": 1951, "genre": "Science Fiction", "pages": 255},
+  {"id": 14, "title": "Designing Data-Intensive Applications", "author": "Martin Kleppmann", "year": 2017, "genre": "Programming", "pages": 616},
+  {"id": 15, "title": "A Wizard of Earthsea", "author": "Ursula K. Le Guin", "year": 1968, "genre": "Fantasy", "pages": 183}
+]
