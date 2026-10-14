@@ -27,7 +27,7 @@ dps-practice/
 ├── PLAN.md                # this file
 ├── SETUP.md               # Windows setup: Python venv, Node, VS Code, common errors
 ├── CHEATSHEET.md          # FastAPI / Flask / SQLAlchemy / React / TS / fetch / pytest syntax
-├── INTERVIEW_PLAYBOOK.md  # (batch 1) step-by-step routine for the live session + think-aloud phrases
+├── INTERVIEW_PLAYBOOK.md  # step-by-step routine for the live session + think-aloud phrases
 ├── basics/                # ✅ the basics course (L1–L6)
 │   ├── L1-web-fundamentals.md
 │   ├── L2-fastapi/
@@ -171,7 +171,7 @@ Practising each concept more than once: **add a field end-to-end** in L6, 05, 06
 | Batch | Content | Status |
 |---|---|---|
 | 0 | SETUP, CHEATSHEET, basics L1–L6 | ✅ done |
-| 1 | INTERVIEW_PLAYBOOK + P01–P05 + solutions | needed by Sun 18 Oct |
+| 1 | INTERVIEW_PLAYBOOK + P01–P05 + solutions | ✅ done |
 | 2 | P06–P11 + solutions | needed by Tue 20 Oct |
 | 3 | P12–P18 + solutions | needed by Fri 23 Oct |
 | 4 | P19 (+ solution), P20 codebase (task stays secret) | needed by Tue 27 Oct |

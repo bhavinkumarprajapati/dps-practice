@@ -1,0 +1,306 @@
+{
+  "Munich": {
+    "temperature_c": 12.8,
+    "condition": "Cloudy",
+    "wind_kph": 12,
+    "humidity": 40,
+    "forecast": [
+      {
+        "day": "Thu",
+        "min_c": 9,
+        "max_c": 14,
+        "condition": "Windy"
+      },
+      {
+        "day": "Fri",
+        "min_c": 5,
+        "max_c": 9,
+        "condition": "Foggy"
+      },
+      {
+        "day": "Sat",
+        "min_c": 4,
+        "max_c": 10,
+        "condition": "Foggy"
+      },
+      {
+        "day": "Sun",
+        "min_c": 1,
+        "max_c": 9,
+        "condition": "Cloudy"
+      },
+      {
+        "day": "Mon",
+        "min_c": 5,
+        "max_c": 9,
+        "condition": "Windy"
+      }
+    ]
+  },
+  "Berlin": {
+    "temperature_c": 10.6,
+    "condition": "Rainy",
+    "wind_kph": 9,
+    "humidity": 69,
+    "forecast": [
+      {
+        "day": "Thu",
+        "min_c": 9,
+        "max_c": 13,
+        "condition": "Foggy"
+      },
+      {
+        "day": "Fri",
+        "min_c": 3,
+        "max_c": 8,
+        "condition": "Foggy"
+      },
+      {
+        "day": "Sat",
+        "min_c": -1,
+        "max_c": 7,
+        "condition": "Foggy"
+      },
+      {
+        "day": "Sun",
+        "min_c": 9,
+        "max_c": 13,
+        "condition": "Cloudy"
+      },
+      {
+        "day": "Mon",
+        "min_c": -1,
+        "max_c": 7,
+        "condition": "Cloudy"
+      }
+    ]
+  },
+  "Hamburg": {
+    "temperature_c": 9.9,
+    "condition": "Windy",
+    "wind_kph": 15,
+    "humidity": 64,
+    "forecast": [
+      {
+        "day": "Thu",
+        "min_c": -1,
+        "max_c": 7,
+        "condition": "Rainy"
+      },
+      {
+        "day": "Fri",
+        "min_c": 4,
+        "max_c": 8,
+        "condition": "Foggy"
+      },
+      {
+        "day": "Sat",
+        "min_c": 3,
+        "max_c": 9,
+        "condition": "Sunny"
+      },
+      {
+        "day": "Sun",
+        "min_c": -1,
+        "max_c": 7,
+        "condition": "Sunny"
+      },
+      {
+        "day": "Mon",
+        "min_c": 2,
+        "max_c": 9,
+        "condition": "Foggy"
+      }
+    ]
+  },
+  "Garching": {
+    "temperature_c": 12.2,
+    "condition": "Sunny",
+    "wind_kph": 18,
+    "humidity": 45,
+    "forecast": [
+      {
+        "day": "Thu",
+        "min_c": 10,
+        "max_c": 16,
+        "condition": "Rainy"
+      },
+      {
+        "day": "Fri",
+        "min_c": 7,
+        "max_c": 12,
+        "condition": "Cloudy"
+      },
+      {
+        "day": "Sat",
+        "min_c": 2,
+        "max_c": 10,
+        "condition": "Rainy"
+      },
+      {
+        "day": "Sun",
+        "min_c": 10,
+        "max_c": 16,
+        "condition": "Windy"
+      },
+      {
+        "day": "Mon",
+        "min_c": 5,
+        "max_c": 13,
+        "condition": "Sunny"
+      }
+    ]
+  },
+  "Cologne": {
+    "temperature_c": 13.9,
+    "condition": "Cloudy",
+    "wind_kph": 26,
+    "humidity": 39,
+    "forecast": [
+      {
+        "day": "Thu",
+        "min_c": 10,
+        "max_c": 15,
+        "condition": "Windy"
+      },
+      {
+        "day": "Fri",
+        "min_c": 12,
+        "max_c": 16,
+        "condition": "Sunny"
+      },
+      {
+        "day": "Sat",
+        "min_c": 9,
+        "max_c": 15,
+        "condition": "Rainy"
+      },
+      {
+        "day": "Sun",
+        "min_c": 9,
+        "max_c": 17,
+        "condition": "Windy"
+      },
+      {
+        "day": "Mon",
+        "min_c": 7,
+        "max_c": 11,
+        "condition": "Rainy"
+      }
+    ]
+  },
+  "Ahmedabad": {
+    "temperature_c": 33.4,
+    "condition": "Sunny",
+    "wind_kph": 14,
+    "humidity": 43,
+    "forecast": [
+      {
+        "day": "Thu",
+        "min_c": 21,
+        "max_c": 30,
+        "condition": "Rainy"
+      },
+      {
+        "day": "Fri",
+        "min_c": 31,
+        "max_c": 37,
+        "condition": "Windy"
+      },
+      {
+        "day": "Sat",
+        "min_c": 31,
+        "max_c": 35,
+        "condition": "Windy"
+      },
+      {
+        "day": "Sun",
+        "min_c": 30,
+        "max_c": 35,
+        "condition": "Foggy"
+      },
+      {
+        "day": "Mon",
+        "min_c": 24,
+        "max_c": 31,
+        "condition": "Sunny"
+      }
+    ]
+  },
+  "Vienna": {
+    "temperature_c": 13.0,
+    "condition": "Foggy",
+    "wind_kph": 26,
+    "humidity": 59,
+    "forecast": [
+      {
+        "day": "Thu",
+        "min_c": 4,
+        "max_c": 11,
+        "condition": "Windy"
+      },
+      {
+        "day": "Fri",
+        "min_c": 11,
+        "max_c": 15,
+        "condition": "Cloudy"
+      },
+      {
+        "day": "Sat",
+        "min_c": 8,
+        "max_c": 15,
+        "condition": "Foggy"
+      },
+      {
+        "day": "Sun",
+        "min_c": 7,
+        "max_c": 12,
+        "condition": "Windy"
+      },
+      {
+        "day": "Mon",
+        "min_c": 3,
+        "max_c": 12,
+        "condition": "Windy"
+      }
+    ]
+  },
+  "Zurich": {
+    "temperature_c": 9.1,
+    "condition": "Rainy",
+    "wind_kph": 24,
+    "humidity": 71,
+    "forecast": [
+      {
+        "day": "Thu",
+        "min_c": 3,
+        "max_c": 8,
+        "condition": "Sunny"
+      },
+      {
+        "day": "Fri",
+        "min_c": 2,
+        "max_c": 7,
+        "condition": "Cloudy"
+      },
+      {
+        "day": "Sat",
+        "min_c": 4,
+        "max_c": 8,
+        "condition": "Windy"
+      },
+      {
+        "day": "Sun",
+        "min_c": 1,
+        "max_c": 7,
+        "condition": "Rainy"
+      },
+      {
+        "day": "Mon",
+        "min_c": 0,
+        "max_c": 5,
+        "condition": "Windy"
+      }
+    ]
+  }
+}
