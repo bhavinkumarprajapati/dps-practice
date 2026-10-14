@@ -1,0 +1,18 @@
+* { box-sizing: border-box; }
+body { font-family: system-ui, sans-serif; margin: 0; background: #f5f6f8; color: #1d1f23; }
+.layout { display: flex; min-height: 100vh; }
+.sidebar { width: 230px; background: #1d1f23; padding: 16px; }
+.sidebar button { display: block; width: 100%; text-align: left; margin-bottom: 6px; padding: 8px 10px;
+  border: 0; border-radius: 6px; background: transparent; color: #cfd3da; cursor: pointer; font-size: 14px; }
+.sidebar button.active, .sidebar button:hover { background: #3b5bdb; color: white; }
+.sidebar h2 { color: white; font-size: 16px; }
+main { flex: 1; padding: 24px 32px; max-width: 900px; }
+.card { background: white; border-radius: 10px; padding: 16px 20px; margin-bottom: 16px; box-shadow: 0 1px 3px rgba(0,0,0,.08); }
+.note { background: #fff8db; border-left: 4px solid #fab005; padding: 8px 12px; border-radius: 6px; font-size: 14px; }
+.error { color: #c92a2a; }
+.done { text-decoration: line-through; color: #868e96; }
+button { cursor: pointer; padding: 6px 12px; border-radius: 6px; border: 1px solid #ced4da; background: white; }
+button.primary { background: #3b5bdb; color: white; border-color: #3b5bdb; }
+input, select { padding: 6px 8px; border-radius: 6px; border: 1px solid #ced4da; }
+ul { padding-left: 20px; }
+li { margin: 4px 0; }
