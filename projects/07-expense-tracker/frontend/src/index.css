@@ -1,0 +1,36 @@
+* { box-sizing: border-box; }
+body { font-family: system-ui, sans-serif; margin: 0; background: #f5f6f8; color: #1d1f23; }
+.container { max-width: 640px; margin: 40px auto; background: white; border-radius: 12px; padding: 24px;
+  box-shadow: 0 2px 8px rgba(0,0,0,.08); }
+h1 { margin-top: 0; }
+input, select, textarea { padding: 8px 10px; border-radius: 6px; border: 1px solid #ced4da; font-size: 15px; font-family: inherit; }
+button { cursor: pointer; padding: 8px 12px; border-radius: 6px; border: 1px solid #ced4da; background: white; font-size: 14px; }
+button.primary { background: #3b5bdb; color: white; border-color: #3b5bdb; }
+button.active { background: #edf2ff; border-color: #3b5bdb; color: #3b5bdb; font-weight: 600; }
+button:disabled { opacity: .5; cursor: not-allowed; }
+.error { background: #fff5f5; color: #c92a2a; padding: 8px 12px; border-radius: 6px; }
+.muted { color: #868e96; font-size: 14px; }
+.row { display: flex; gap: 8px; align-items: center; }
+.todo-form { display: flex; gap: 8px; margin-bottom: 16px; }
+.todo-form input { flex: 1; }
+.todo-list { list-style: none; padding: 0; margin: 0; }
+.todo-list li { display: flex; align-items: center; gap: 10px; padding: 10px 4px; border-bottom: 1px solid #f1f3f5; }
+.todo-list .title { flex: 1; }
+.done { text-decoration: line-through; color: #868e96; }
+.toolbar { display: flex; justify-content: space-between; align-items: center; margin-top: 16px; gap: 8px; flex-wrap: wrap; }
+.container.wide { max-width: 820px; }
+.expense-form { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 16px; }
+.expense-form input:first-child { flex: 1; min-width: 160px; }
+.expense-form .full { flex-basis: 100%; margin: 0; }
+.expense-form.editing { background: #fff9db; padding: 8px; border-radius: 8px; }
+table { width: 100%; border-collapse: collapse; font-size: 14px; }
+th { text-align: left; border-bottom: 2px solid #dee2e6; padding: 8px 6px; }
+td { border-bottom: 1px solid #f1f3f5; padding: 8px 6px; }
+.num { text-align: right; white-space: nowrap; }
+.actions { text-align: right; white-space: nowrap; }
+.total { text-align: right; font-size: 18px; }
+.summary { background: #f8f9fa; border-radius: 10px; padding: 12px 16px; margin-bottom: 16px; }
+.summary h2 { margin: 0 0 8px; font-size: 16px; }
+.bar { height: 8px; background: #3b5bdb; border-radius: 4px; }
+.summary-row { display: grid; grid-template-columns: 100px 1fr 120px; gap: 10px; align-items: center; font-size: 14px; margin: 4px 0; }
+.badge { font-size: 12px; background: #edf2ff; color: #3b5bdb; padding: 2px 8px; border-radius: 10px; }

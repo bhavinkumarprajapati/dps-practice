@@ -1,0 +1,35 @@
+* { box-sizing: border-box; }
+body { font-family: system-ui, sans-serif; margin: 0; background: #f5f6f8; color: #1d1f23; }
+.container { max-width: 640px; margin: 40px auto; background: white; border-radius: 12px; padding: 24px;
+  box-shadow: 0 2px 8px rgba(0,0,0,.08); }
+h1 { margin-top: 0; }
+input, select, textarea { padding: 8px 10px; border-radius: 6px; border: 1px solid #ced4da; font-size: 15px; font-family: inherit; }
+button { cursor: pointer; padding: 8px 12px; border-radius: 6px; border: 1px solid #ced4da; background: white; font-size: 14px; }
+button.primary { background: #3b5bdb; color: white; border-color: #3b5bdb; }
+button.active { background: #edf2ff; border-color: #3b5bdb; color: #3b5bdb; font-weight: 600; }
+button:disabled { opacity: .5; cursor: not-allowed; }
+.error { background: #fff5f5; color: #c92a2a; padding: 8px 12px; border-radius: 6px; }
+.muted { color: #868e96; font-size: 14px; }
+.row { display: flex; gap: 8px; align-items: center; }
+.todo-form { display: flex; gap: 8px; margin-bottom: 16px; }
+.todo-form input { flex: 1; }
+.todo-list { list-style: none; padding: 0; margin: 0; }
+.todo-list li { display: flex; align-items: center; gap: 10px; padding: 10px 4px; border-bottom: 1px solid #f1f3f5; }
+.todo-list .title { flex: 1; }
+.done { text-decoration: line-through; color: #868e96; }
+.toolbar { display: flex; justify-content: space-between; align-items: center; margin-top: 16px; gap: 8px; flex-wrap: wrap; }
+.container.wide { max-width: 900px; }
+.app-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; }
+.app-header h1 { margin: 0; }
+.tabs { display: flex; gap: 6px; }
+table { width: 100%; border-collapse: collapse; font-size: 14px; }
+th { text-align: left; border-bottom: 2px solid #dee2e6; padding: 8px 6px; }
+td { border-bottom: 1px solid #f1f3f5; padding: 8px 6px; }
+.actions { text-align: right; white-space: nowrap; }
+.lend-form { justify-content: flex-end; }
+.pill { font-size: 12px; padding: 2px 10px; border-radius: 10px; }
+.pill.green { background: #d3f9d8; color: #2b8a3e; }
+.pill.grey { background: #f1f3f5; color: #495057; }
+.pill.red { background: #ffe3e3; color: #c92a2a; }
+tr.overdue td { background: #fff5f5; }
+.success { background: #ebfbee; color: #2b8a3e; padding: 8px 12px; border-radius: 6px; }
