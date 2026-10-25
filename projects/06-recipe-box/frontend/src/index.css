@@ -1,0 +1,31 @@
+* { box-sizing: border-box; }
+body { font-family: system-ui, sans-serif; margin: 0; background: #f5f6f8; color: #1d1f23; }
+.container { max-width: 640px; margin: 40px auto; background: white; border-radius: 12px; padding: 24px;
+  box-shadow: 0 2px 8px rgba(0,0,0,.08); }
+h1 { margin-top: 0; }
+input, select, textarea { padding: 8px 10px; border-radius: 6px; border: 1px solid #ced4da; font-size: 15px; font-family: inherit; }
+button { cursor: pointer; padding: 8px 12px; border-radius: 6px; border: 1px solid #ced4da; background: white; font-size: 14px; }
+button.primary { background: #3b5bdb; color: white; border-color: #3b5bdb; }
+button.active { background: #edf2ff; border-color: #3b5bdb; color: #3b5bdb; font-weight: 600; }
+button:disabled { opacity: .5; cursor: not-allowed; }
+.error { background: #fff5f5; color: #c92a2a; padding: 8px 12px; border-radius: 6px; }
+.muted { color: #868e96; font-size: 14px; }
+.row { display: flex; gap: 8px; align-items: center; }
+.todo-form { display: flex; gap: 8px; margin-bottom: 16px; }
+.todo-form input { flex: 1; }
+.todo-list { list-style: none; padding: 0; margin: 0; }
+.todo-list li { display: flex; align-items: center; gap: 10px; padding: 10px 4px; border-bottom: 1px solid #f1f3f5; }
+.todo-list .title { flex: 1; }
+.done { text-decoration: line-through; color: #868e96; }
+.toolbar { display: flex; justify-content: space-between; align-items: center; margin-top: 16px; gap: 8px; flex-wrap: wrap; }
+.container.wide { max-width: 900px; }
+.recipe-form { display: flex; flex-direction: column; gap: 8px; background: #f8f9fa; padding: 14px 16px; border-radius: 10px; margin-bottom: 16px; }
+.recipe-form h2 { margin: 0; font-size: 17px; }
+.recipe-form button { align-self: flex-start; }
+.filters { display: flex; gap: 16px; margin: 8px 0 12px; flex-wrap: wrap; }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 12px; }
+.recipe-card { border: 1px solid #e9ecef; border-radius: 10px; padding: 12px 16px; }
+.recipe-card header { display: flex; justify-content: space-between; align-items: start; gap: 8px; }
+.recipe-card h3 { margin: 0; font-size: 17px; }
+.recipe-card ul { padding-left: 18px; margin: 6px 0 0; font-size: 14px; }
+.recipe-card .muted { margin: 4px 0; }

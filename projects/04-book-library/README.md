@@ -95,4 +95,4 @@ npm run dev
 - Debounce: `useEffect(() => { const t = setTimeout(load, 300); return () => clearTimeout(t); }, [search])`.
 </details>
 
-Solution: [`solutions/04-book-library.md`](../../solutions/04-book-library.md)
+**Reference solution:** not in this branch. When you have finished all tasks, ask your mentor for the review / solution.

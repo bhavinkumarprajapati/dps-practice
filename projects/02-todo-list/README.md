@@ -106,4 +106,4 @@ No backend change! 💬 Explain why this should **not** be a new piece of state.
 - Bonus: in Flask, `/api/todos/completed` and `/api/todos/<int:todo_id>` don't clash. Why not?
 </details>
 
-Solution: [`solutions/02-todo-list.md`](../../solutions/02-todo-list.md)
+**Reference solution:** not in this branch. When you have finished all tasks, ask your mentor for the review / solution.
