@@ -145,3 +145,40 @@ Practise the **routine** in every project until it's automatic.
 3. Did I check after every small step?
 4. Where did I lose the most time, and why?
 5. Which syntax did I have to look up? (add it to your own notes)
+
+---
+
+## 9. Questions about YOU, your projects and your decisions
+
+A DPS alumna's tip: they ask a lot about **previous projects, the technologies you used, and the technical decisions
+behind them**, and how you approach problems. Prepare this as seriously as the coding part.
+
+### A structure for every project answer (≈ 2 minutes)
+1. **Context**: who was it for, and what problem did it solve? (1–2 sentences)
+2. **Your role**: what did *you* build? (say "I", not "we", for your part)
+3. **One key technical decision**: what you chose, **what the alternative was**, and **why** you chose it.
+4. **Result**: what worked? Use a number if you have one.
+5. **What you'd do differently / learned**: shows reflection, which DPS values highly.
+
+### Prepare these from your CV (write 3–4 bullet points for each, then say them out loud)
+
+| Project | Likely questions |
+|---|---|
+| **JobFitAI** (Chrome Extension → FastAPI → LLM → SQLite) | Why FastAPI? Why SQLite and not Postgres? How does Pydantic validation protect the database from bad LLM output? How does the extension talk to the backend (CORS, API key)? What does your CI pipeline check, and why? |
+| **Cleo** (Qhack-26, team of 5, React + FastAPI) | How did you split the work in the team? How did frontend and backend agree on the API? What would you do differently with more time? What did you personally build? |
+| **Message pipeline** (fully local, PII masking) | Why no external APIs? What trade-offs did "data must never leave the company" create? How did you test the PII detection? |
+| **SEC MCP server** (in progress) | What is MCP, in simple words? Why citations? What's the hardest part so far, and how are you approaching it? |
+| **Thesis** (RAG vs RAFT) | Explain it to a non-expert in 30 seconds. How did you make sure your results were reliable? |
+
+### General questions to prepare
+- *"Walk me through how you would build \<a simple product\> from scratch."* → users & problem first, then a small
+  first version (MVP), the API, the data model, the UI, testing, deployment.
+- *"How do you approach a problem you've never seen before?"* → understand → break it down → small experiment → check → iterate. Give one real example.
+- *"Tell me about a bug that took you long to find."* → symptom, how you narrowed it down (layers!), the root cause, what you learned.
+- *"How do you make sure your code works?"* → tests (pytest), manual checks, CI, code review, validating input.
+- *"Why DPS, and why the Software Engineer track?"* → your motivation letter: build products **with** designers and PMs,
+  user-centred, learn agile properly, grow beyond Python into React (and Spring).
+- *"How would you use AI in a product for \<use case\>?"* → your strength. Keep it practical: the user problem first,
+  then where AI helps, how you validate the output, privacy, cost, and a fallback when the AI is wrong.
+
+> 💡 Rehearse with a timer: 2 minutes per project. Record yourself once, or practise with a friend.
