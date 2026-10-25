@@ -16,7 +16,8 @@ on **Friday 30 October 2026, 9:00**.
 1. **Basics course first** (Days 1–3) so React, FastAPI, Flask and how they connect are clear.
 2. Then **10 interview-style practice apps** (originally 20; reduced on 25 Oct to fit the remaining time, so the
    focus is on **fundamentals in JavaScript**, with no TypeScript). The last one is a timed simulation of the real interview.
-3. Prepare to **talk about your own projects and decisions** (INTERVIEW_PLAYBOOK §9). A DPS alumna said this is a big part of the interview.
+3. Prepare to **talk about your own projects and decisions** (INTERVIEW_PLAYBOOK §9) and practise the **58 questions in
+   [INTERVIEW_QA.md](INTERVIEW_QA.md)**. A DPS alumna said this is a big part of the interview.
 
 ---
 
@@ -109,10 +110,10 @@ Each project README ends with **"Interviewer follow-up questions"**. Answer them
 | Day | Date | Work |
 |---|---|---|
 | ✅ | 15–24 Oct | Setup, basics L1–L6, projects 01–05 |
-| 1 | Sun 25 Oct | **P06** · read INTERVIEW_PLAYBOOK §9 and write your project notes (JobFitAI, Cleo, …) |
-| 2 | Mon 26 Oct | **P07** · **P08** |
-| 3 | Tue 27 Oct | **P09** · rehearse 2-minute project stories out loud (timer!) |
-| 4 | Wed 28 Oct | **P10 mock interview** (record yourself or ask a friend) · review the self-evaluation · redo your weakest task type |
+| 1 | Sun 25 Oct | **P06** · read INTERVIEW_PLAYBOOK §9 · INTERVIEW_QA **Part A** (you & projects) |
+| 2 | Mon 26 Oct | **P07** · **P08** · INTERVIEW_QA **Part B** |
+| 3 | Tue 27 Oct | **P09** · INTERVIEW_QA **Part C + E** · rehearse 2-minute project stories out loud (timer!) |
+| 4 | Wed 28 Oct | **P10 mock interview** (record yourself or ask a friend) · INTERVIEW_QA **Part D** · repeat the ✍️ questions |
 | 5 | Thu 29 Oct | **The real repo arrives.** Clone, run, understand (AI allowed). Fill in the architecture note from P10 Part A. Try 2 likely changes on a throw-away branch. Stop early and sleep. |
 | 🎯 | **Fri 30 Oct, 9:00** | **Interview** |
 

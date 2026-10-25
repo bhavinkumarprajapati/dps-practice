@@ -10,6 +10,7 @@ Interview prep for the **Digital Product School, Software Engineer track**
 | 📚 [basics/](basics/) | basics course: React + FastAPI + Flask from zero |
 | 📝 [CHEATSHEET.md](CHEATSHEET.md) | syntax to look up (allowed in the interview) |
 | 🎯 [INTERVIEW_PLAYBOOK.md](INTERVIEW_PLAYBOOK.md) | routine for the live session + how to talk about your projects (§9) |
+| 💬 [INTERVIEW_QA.md](INTERVIEW_QA.md) | **58 interview questions with simple answers**: you & projects, fundamentals, scenarios, agile |
 
 ## Progress tracker
 
@@ -51,3 +52,13 @@ FA = FastAPI · FL = Flask
 | 2-minute story: Cleo (Qhack-26) | ⬜ |
 | 2-minute story: Message pipeline / SEC MCP | ⬜ |
 | "Why DPS?" answer | ⬜ |
+
+### Interview Q&A ([INTERVIEW_QA.md](INTERVIEW_QA.md))
+
+| Part | Questions | Status |
+|---|---|---|
+| A: About you, projects, DPS | 12 | ⬜ |
+| B: Fundamentals, basic | 16 | ⬜ |
+| C: Fundamentals, medium | 14 | ⬜ |
+| D: Scenarios and design | 10 | ⬜ |
+| E: Agile, teamwork, product | 6 | ⬜ |
